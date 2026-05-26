@@ -1,36 +1,36 @@
 \begin{center}
 \begin{tabular}{lclc}
 \toprule
-\textbf{Dep. Variable:}        & pedagogy\_score  & \textbf{  R-squared:         } &     0.239   \\
-\textbf{Model:}                &       OLS        & \textbf{  Adj. R-squared:    } &     0.237   \\
-\textbf{Method:}               &  Least Squares   & \textbf{  F-statistic:       } &     110.5   \\
-\textbf{Date:}                 & Tue, 17 Mar 2026 & \textbf{  Prob (F-statistic):} &  4.19e-84   \\
-\textbf{Time:}                 &     05:44:38     & \textbf{  Log-Likelihood:    } &   -5387.4   \\
-\textbf{No. Observations:}     &        2444      & \textbf{  AIC:               } & 1.079e+04   \\
-\textbf{Df Residuals:}         &        2435      & \textbf{  BIC:               } & 1.085e+04   \\
-\textbf{Df Model:}             &           8      & \textbf{                     } &             \\
-\textbf{Covariance Type:}      &     cluster      & \textbf{                     } &             \\
+\textbf{Dep. Variable:}        & Providing\_Guidance\_within & \textbf{  R-squared:         } &     0.186   \\
+\textbf{Model:}                &             OLS             & \textbf{  Adj. R-squared:    } &     0.183   \\
+\textbf{Method:}               &        Least Squares        & \textbf{  F-statistic:       } &     74.17   \\
+\textbf{Date:}                 &       Tue, 26 May 2026      & \textbf{  Prob (F-statistic):} &  4.03e-66   \\
+\textbf{Time:}                 &           15:07:19          & \textbf{  Log-Likelihood:    } &   -2534.4   \\
+\textbf{No. Observations:}     &              2444           & \textbf{  AIC:               } &     5087.   \\
+\textbf{Df Residuals:}         &              2435           & \textbf{  BIC:               } &     5139.   \\
+\textbf{Df Model:}             &                 8           & \textbf{                     } &             \\
+\textbf{Covariance Type:}      &           cluster           & \textbf{                     } &             \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lcccccc}
                                & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
 \midrule
-\textbf{const}                 &    4.337e-18  &     3.95e-17     &     0.110  &         0.913        &    -7.32e-17    &     8.18e-17     \\
-\textbf{PressReasoning\_prob}  &       0.2087  &        0.044     &     4.738  &         0.000        &        0.122    &        0.295     \\
-\textbf{PressAccuracy\_prob}   &       0.5857  &        0.057     &    10.257  &         0.000        &        0.474    &        0.698     \\
-\textbf{Uptake\_prob}          &       0.3461  &        0.072     &     4.794  &         0.000        &        0.205    &        0.488     \\
-\textbf{word\_count\_log}      &       0.0663  &        0.099     &     0.667  &         0.505        &       -0.128    &        0.261     \\
-\textbf{mtld\_log}             &       0.6489  &        0.062     &    10.495  &         0.000        &        0.528    &        0.770     \\
-\textbf{flesch\_reading\_ease} &       0.0816  &        0.057     &     1.442  &         0.149        &       -0.029    &        0.192     \\
-\textbf{politeness\_score}     &      -0.1600  &        0.054     &    -2.981  &         0.003        &       -0.265    &       -0.055     \\
-\textbf{agency\_score}         &      -0.6931  &        0.050     &   -14.000  &         0.000        &       -0.790    &       -0.596     \\
+\textbf{const}                 &   -1.388e-17  &     6.36e-18     &    -2.182  &         0.029        &    -2.63e-17    &    -1.41e-18     \\
+\textbf{PressReasoning\_prob}  &       0.0544  &        0.016     &     3.382  &         0.001        &        0.023    &        0.086     \\
+\textbf{PressAccuracy\_prob}   &       0.1171  &        0.020     &     5.933  &         0.000        &        0.078    &        0.156     \\
+\textbf{Uptake\_prob}          &       0.1207  &        0.022     &     5.597  &         0.000        &        0.078    &        0.163     \\
+\textbf{word\_count\_log}      &       0.0504  &        0.027     &     1.873  &         0.061        &       -0.002    &        0.103     \\
+\textbf{mtld\_log}             &       0.1712  &        0.019     &     8.993  &         0.000        &        0.134    &        0.208     \\
+\textbf{flesch\_reading\_ease} &       0.0442  &        0.017     &     2.589  &         0.010        &        0.011    &        0.078     \\
+\textbf{politeness\_score}     &      -0.0342  &        0.018     &    -1.885  &         0.059        &       -0.070    &        0.001     \\
+\textbf{agency\_score}         &      -0.1713  &        0.017     &   -10.227  &         0.000        &       -0.204    &       -0.138     \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lclc}
-\textbf{Omnibus:}       & 86.477 & \textbf{  Durbin-Watson:     } &    2.263  \\
-\textbf{Prob(Omnibus):} &  0.000 & \textbf{  Jarque-Bera (JB):  } &   95.205  \\
-\textbf{Skew:}          & -0.481 & \textbf{  Prob(JB):          } & 2.12e-21  \\
-\textbf{Kurtosis:}      &  2.910 & \textbf{  Cond. No.          } &     2.44  \\
+\textbf{Omnibus:}       & 89.670 & \textbf{  Durbin-Watson:     } &    2.230  \\
+\textbf{Prob(Omnibus):} &  0.000 & \textbf{  Jarque-Bera (JB):  } &   92.296  \\
+\textbf{Skew:}          & -0.448 & \textbf{  Prob(JB):          } & 9.08e-21  \\
+\textbf{Kurtosis:}      &  2.681 & \textbf{  Cond. No.          } &     2.44  \\
 \bottomrule
 \end{tabular}
 %\caption{OLS Regression Results}
